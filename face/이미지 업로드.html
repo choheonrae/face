@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>이미지 업로드</title>
+    <script src="face-api.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>이미지 업로드</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input id="upload-input" type="file" name="image" accept="image/*">
+        <br>
+        <img id="preview" src="" alt="미리보기">
+    </form>
+</body>
+</html>
